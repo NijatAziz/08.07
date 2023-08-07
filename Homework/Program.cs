@@ -12,7 +12,7 @@ internal class Program
 
 
         string sentence = "Bu bir custom,split methodudur";
-        string[] words = sentence.CustamSplit('bir');
+        string[] words = sentence.CustamSplit('b');
         foreach (string word in words)
         {
             Console.WriteLine(word);
